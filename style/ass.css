@@ -5,11 +5,13 @@
   font-style: normal;
 }
 .bg{
-    background-color: #F5F8FF;
+    background-color: #dae3f9;
 }
 header{
     background-image: url('../images/B12A01-landing-launchpad/Assets/Hero-bg.png');
+    
     padding: 0px 0px 200px 0px;
+    margin: 0px 0px;
 }
 nav{
     display: flex;
@@ -91,6 +93,7 @@ nav h2{
     margin-left: auto;
     text-align: right;
     justify-content: flex-end;
+    align-content: end;
      }
    .center{
     text-align: center;
@@ -102,4 +105,74 @@ nav h2{
   font-optical-sizing: auto;
   
   font-style: normal;
+}
+.star{
+    display: flex;
+}
+.women{
+    display: flex;
+    gap: 5px;
+    
+}
+.name{
+    /* margin: 5px 5px; */
+    /* text-align: left; */
+    
+    
+}
+.dated{
+    text-align: left;
+}
+.review-conteiner{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    padding: 24px;
+}
+.desighn:hover{
+    background-color: #adabcb;
+}
+.desighn{
+        padding: 24px;
+      /* box-shadow: 0px 6px 6px 0px; */
+      border: solid;
+      border-color: #e2e8f8;
+      border-radius: 5px;
+
+}
+.optional-cont{
+    border-radius: 20px;
+    background-color: #bfcef5;
+    padding: 20px;
+    margin: 90px auto;
+
+}
+.optional-img{
+    border-color: white;
+        border-radius: 48px;
+        margin: 10px 150px;
+}
+.form-text{
+    font-size: 18px;
+    font-weight: bold;
+}
+.last2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.high{
+    font-weight: bold;
+    font-size: 80px;
+    
+}
+footer input[type="text"]{
+      height: 50px;
+    border-radius: 5px;
+    background-color: white;
+    margin: 10px auto;
+    
+}
+.form{
+    margin: 90px;
+    border: none
 }
