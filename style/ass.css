@@ -114,12 +114,9 @@ nav h2{
     gap: 5px;
     
 }
-.name{
-    /* margin: 5px 5px; */
-    /* text-align: left; */
+
     
-    
-}
+
 .dated{
     text-align: left;
 }
@@ -192,7 +189,7 @@ footer input[type="text"]{
 ul{
     display: flex;
     list-style: none;
-    /* justify-content: space-around; */
+    
     text-align: center;
     align-items: center;
     margin: 0 550px;
