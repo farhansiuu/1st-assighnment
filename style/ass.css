@@ -31,9 +31,40 @@ nav h2{
     height: 50px;
     
     }
+    .btn:hover{
+        background-color: #534ef0;
+    }
     .banner{
         align-items: center;
         text-align: center;
         font-weight: bold;
         font-size: 30px;
     }
+    .actin{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    main{
+        max-width: 1280px;
+        margin: 70px auto;
+    }
+    .action-img{
+    
+        
+        border-color: white;
+        border-radius: 48%;
+        margin: 10px;
+        
+    }
+    .text{
+        font-size: 35px;
+        font-weight: bold;
+    }
+    .pera{
+        color: #6662a8;
+        font-size: 18px;
+    }
+   .action{
+    align-items: center;
+    
+   }
