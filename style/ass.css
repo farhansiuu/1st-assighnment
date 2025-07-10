@@ -138,6 +138,7 @@ nav h2{
       border: solid;
       border-color: #e2e8f8;
       border-radius: 5px;
+      box-shadow: 1px 3px 3px 3px;
 
 }
 .optional-cont{
@@ -175,4 +176,30 @@ footer input[type="text"]{
 .form{
     margin: 90px;
     border: none
+}
+.last{
+    font-size: 100px;
+    color: #4E47FF;
+}
+.logo h1{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.women h5{
+     margin-bottom: 0;
+    padding-bottom: 0;
+}
+ul{
+    display: flex;
+    list-style: none;
+    /* justify-content: space-around; */
+    text-align: center;
+    align-items: center;
+    margin: 0 550px;
+    gap: 30px;
+    
+}
+.logo{
+    background-color: white;
+    padding: 20px 0px 50px 0px;
 }
