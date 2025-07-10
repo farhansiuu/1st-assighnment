@@ -20,6 +20,7 @@ nav{
 nav h2{
     font-weight: bold;
     font-size: 30px;
+    color: #2b24fc;
 }
 .btn{
      border: none;
@@ -45,7 +46,7 @@ nav h2{
         justify-content: space-evenly;
     }
     main{
-        max-width: 1280px;
+        max-width: 1140px;
         margin: 70px auto;
     }
     .action-img{
@@ -68,3 +69,37 @@ nav h2{
     align-items: center;
     
    }
+   .title{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+    margin: 5px;
+   }
+   .joined-conteiner{
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    text-align: right;
+      
+     }
+     .peoples{
+        
+    border-radius: 24px;
+    background-color: #cdcbfe;
+    padding: 20px;
+    margin: 90px auto;
+    margin-left: auto;
+    text-align: right;
+    justify-content: flex-end;
+     }
+   .center{
+    text-align: center;
+    align-items: center;
+    
+   }
+   .inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+}
